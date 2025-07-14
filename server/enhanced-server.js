@@ -18,7 +18,8 @@ const allowedOrigins = [
   'http://127.0.0.1:8080',
   process.env.FRONTEND_URL, // Will be set to your Vercel domain
   // Add your Vercel domain here when you get it
-  'https://your-app-name.vercel.app'
+  'https://voice-meet-app.vercel.app',
+  'voice-meet-app.vercel.app',
 ];
 
 const io = socketIo(server, {
